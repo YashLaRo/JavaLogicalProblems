@@ -1,0 +1,22 @@
+import java.util.*;
+
+class mult{
+    public void multiples(int x,int y){
+	   int [] arr1 = new int[y];
+	   for(int i=1; i<=y ; i++){
+	            arr1[i-1] = x*i;
+	   }
+            System.out.println(Arrays.toString(arr1));
+	}
+}
+
+public class Main
+{
+	public static void main(String[] args) {
+	    mult m = new mult();
+	    m.multiples(7,5);
+	    m.multiples(17,6);
+	     
+	}
+
+}
